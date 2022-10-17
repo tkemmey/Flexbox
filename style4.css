@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 4px solid lightgrey;
+    padding: 24px;
+    margin: 20px 40px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.box{
+    border: 2px solid lightgrey;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.smallbox{
+    border: 2px solid lightgrey;
+    width: 30%;
+    height: 100px;
+
+}
+.bigbox{
+    border: 2px solid lightgrey;
+    height: 100;
+    width: 50%;
+    margin-left: 10px;
+}
+.box-wrapper{
+    width: 50%;
+    height: 100;
+    margin-right: 10px;
+}
+
+.smallbox-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
